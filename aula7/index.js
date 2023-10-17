@@ -29,7 +29,7 @@ console.log(duplicarResultado)
 
 const concPrimeironumero = '5'
 const concSegundonumero = '10'
-console.log('\n',concPrimeironumero+concSegundonumero)
+console.log(concPrimeironumero+concSegundonumero)
 
 //tipos de variavel
 console.log(typeof primeiroNumero, '<----tipo da variavel: primeiroNumero');
