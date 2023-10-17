@@ -18,12 +18,21 @@ console.log(primeiroNumero, '+', segundoNumero)
 
 const resultado = primeiroNumero + segundoNumero;
 
-console.log('\nResultado das constantes: ')
+console.log('\nResultado das constantes: ');
 console.log(resultado)
 
-console.log('\nDobro do resultado')
+console.log('\nDobro do resultado');
 const duplicarResultado = resultado * 2;
 console.log(duplicarResultado)
 
-console.log(typeof primeiroNumero, '<----tipo da variavel: primeiroNumero')
+//TEMOS TAMBEM UM EXEMPLO DE CONCATENAÇÃO
+
+const concPrimeironumero = '5'
+const concSegundonumero = '10'
+console.log('\n',concPrimeironumero+concSegundonumero)
+
+//tipos de variavel
+console.log(typeof primeiroNumero, '<----tipo da variavel: primeiroNumero');
+console.log(typeof concPrimeironumero, '<----tipo da variavel: concPrimeironumero');
+console.log(typeof concPrimeironumero, '<----tipo da variavel: concPrimeironumero + concSegundonumero');
 
