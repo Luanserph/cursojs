@@ -1,9 +1,10 @@
-//Operadores aritméticos, de atribuição e incremento
+//Operadores aritméticos, de atribuição, conversão, incremento e decremento
 
 
 let num1 = 10;
 let num2 = 5;
 let num3 = 2;
+const num4 = '10';
 
 const soma = num1 + num2 + num3;
 const sub = num1 - num2 - num3;
@@ -25,7 +26,8 @@ console.log('===== PRÉ Incrementação das variaveis =====')
 console.log(`${++num1}`);
 console.log('===== PÓS Incrementação das variaveis =====')
 console.log(`${num1++}`,`${num1}`);
-console.log('===== PRÉ Redução das variaveis =====')
+console.log('===== PRÉ decremento das variaveis =====')
 console.log(`${--num1}`);
-console.log('===== PÓS Redução das variaveis =====')
+console.log('===== PÓS decremento das variaveis =====')
 console.log(`${num1--}`,`${num1}`);
+console.log(Number(num4));
