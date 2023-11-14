@@ -30,4 +30,4 @@ console.log('===== PRÉ decremento das variaveis =====')
 console.log(`${--num1}`);
 console.log('===== PÓS decremento das variaveis =====')
 console.log(`${num1--}`,`${num1}`);
-console.log(Number(num4));
+console.log(typeof parseInt (num4));
